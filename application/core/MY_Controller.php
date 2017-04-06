@@ -26,6 +26,8 @@ class Application extends CI_Controller {
 		
 		// get the user role
 		$this->data['userrole'] = $this->session->userdata('userrole');
+		//print_r($_SESSION);
+        //die();
 		if ($this->data['userrole'] == NULL) $this->data['userrole'] = '?';
 	}
 
