@@ -24,6 +24,10 @@
 						</div>
 					</div>
 				</div>
+                                <div class=row">
+                                        <a class="btn btn-primary btn-default" role="button" href="/shopping/checkout">Checkout</a>
+                                        <a class="btn btn-default" role="button" href="/shopping/cancel">Cancel This Order</a>
+                                </div>
 				<div class='col-md-3'>
 					{receipt}
 				</div>
